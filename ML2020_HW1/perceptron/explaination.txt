@@ -1,0 +1,17 @@
+Perceptron code description:
+> Find the number of training examples
+> initialize the weight vector for the perceptron with zeros.
+> set the learning weights to zero
+> define a list to store the errors
+> Define a variable that will store the value of w that gives the least error
+> A variable to store the smallest error
+> Iterate n times over the whole data set.
+> Iterate over each sample in the data set
+> Misclassification condition yi⟨xi,w⟩≤0 
+> Update rule for the weights w=w+yi∗xi including the learning rate
+
+
+Logistic Regression:
+For logistic regression the LogisticRegression module from sklearn is used.
+To learn the model you need to use the  fit(...)  instruction
+and to predict you need to use the  predict(...)  function.ss
